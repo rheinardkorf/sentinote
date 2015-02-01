@@ -1,0 +1,7 @@
+#adminmenu #toplevel_page_sentinote-core-settings div.wp-menu-image img{
+	position:relative;
+	top:-2px;
+}
+#adminmenu #toplevel_page_sentinote-core-settings .current div.wp-menu-image img{
+	opacity: 1.0 !important;
+}
