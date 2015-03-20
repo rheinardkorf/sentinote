@@ -137,7 +137,8 @@ function rksnwp_post_category( $post, $tags ){
 			}
 		}
 	}
-	$post['post_category'] = $postCats;
+	if (count($postCasts) > 0)
+  	$post['post_category'] = $postCats;
 	return $post;
 }
 add_action('sentinote_process_wp_post_data', 'rksnwp_post_category', 10, 2);
